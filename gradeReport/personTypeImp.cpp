@@ -12,5 +12,28 @@
 
 using namespace std;
 
-//The definitions of the member functions of the class
-//personType go here.
+// The definitions of the member functions of the class
+// personType go here.
+void personType::print() const
+{
+    cout << firstName << " " << lastName;
+}
+void personType::setName(string first, string last)
+{
+    firstName = first;
+    lastName = last;
+}
+string personType::getFirstName() const
+{
+    return firstName;
+}
+string personType::getLastName() const
+{
+    return lastName;
+}
+// constructor
+personType::personType(string first, string last)
+{
+    firstName = first;
+    lastName = last;
+}
