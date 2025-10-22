@@ -23,5 +23,3 @@ To calculate the GPA, we assume that the grade A is equivalent to four points, B
 
 **Input:** A file (*stData.txt*) containing the data in the form given previously.  
 **Output:** A file (*stDataOut.txt*) containing the output in the form given previously.  
-
-## Problem Analysis and Program Design
